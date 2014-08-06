@@ -1,0 +1,40 @@
+* { padding: 0; margin: 0; }
+
+body { 
+	font: 14px/1.5 Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding-bottom: 0.4em;
+}
+
+.alpha	{ font-size: 5.142em; line-height: 1; }
+.beta	{ font-size: 4.258em; line-height: 1; }
+h1		{ font-size: 3.428em; line-height: 1;  }
+h2		{ font-size: 2.571em; line-height: 1.1; }
+h3		{ font-size: 1.714em; line-height: 1.2; }
+h4		{ font-size: 1.500em; line-height: 1.3; }
+h5		{ font-size: 1.285em; line-height: 1.4; }
+h6		{ font-size: 1.142em; line-height: 1.5; }
+
+p, ul, ol {
+	padding-bottom: 1.5em;
+}
+
+/*
+ * TODO
+ *
+ * tabels 
+ * ordered list
+ * unordered list
+ *
+ * */
+
+ul, ol { padding-left: 1.5em; }
+
+ul > li { list-style: disc; }
+ul > li > ul > li { list-style: square; }
+ul > li > ul > li > ul > li { list-style: circle; }
+
+ol > li { list-style: decimal; }
+/*TODO: Do the same for OL*/

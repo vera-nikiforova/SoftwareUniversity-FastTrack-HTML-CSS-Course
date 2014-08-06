@@ -1,0 +1,13 @@
+body {
+}
+
+.container {
+	width: 40em;
+	padding: 3em 4em;
+	margin: 0 auto;
+	background: #eee;
+}
+
+a {
+	color: #369;
+}

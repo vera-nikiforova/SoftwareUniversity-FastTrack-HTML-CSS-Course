@@ -1,0 +1,30 @@
+body, html { 
+    height: 100%; 
+    overflow: hidden; 
+}
+header, footer, .main {
+    padding: 0.5em 1em;
+}
+
+header, footer { 
+	height: 10%;
+	width: 100%;
+	overflow: hidden;
+}
+
+header {
+	background: #FEE;
+}
+h1 {
+    margin-bottom:0;
+}
+
+.main {
+	height: 75%;
+	background: #EFE;
+	overflow: auto;
+}
+
+footer {
+	background: #EEF;
+}

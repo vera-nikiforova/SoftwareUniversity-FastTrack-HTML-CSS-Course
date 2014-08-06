@@ -1,0 +1,23 @@
+* { padding: 0; margin: 0; }
+
+body, html { height: 100%; overflow: hidden; }
+
+.header, .footer { 
+	height: 10%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.header {
+	background: #FEE;
+}
+
+.main {
+	height: 80%;
+	background: #EFE;
+	overflow: auto;
+}
+
+.footer {
+	background: #EEF;
+}

@@ -1,0 +1,32 @@
+body {
+}
+
+body, html { height: 100%; overflow: hidden; }
+
+.page { 
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	top: 15%; left: 15%;
+	border: solid 1px #CCC;
+	border-radius: 10px;
+	overflow: hidden;
+	overflow-y: auto;
+	box-shadow: 0 0 10px #999;
+	/*opacity: 0;*/
+	/*transition: all 0.1s linear;*/
+}
+
+/*.page p { color: #666; }*/
+/*.page p:hover { color: #000; }*/
+
+/*.page:hover {*/
+	/*opacity: 1;*/
+/*}*/
+
+.header, .main, .footer {
+	margin: 1em 3em; padding: 0.5em 0;
+}
+
+.header { border-bottom: solid 1px #CCC; text-align: center; }
+.footer { border-top: solid 1px #CCC; }

@@ -1,0 +1,75 @@
+﻿.noprint,
+.navbox,
+#mw-navigation,
+#footer,
+.suggestions,
+#catlinks,
+.toctoggle,
+.metadata,
+.hatnote,
+.cite-accessibility-label,
+#jump-to-nav { display: none; }
+
+
+.infobox { 
+    float: right; 
+    margin: 0 0 1em 1em; 
+}
+
+#siteSub { 
+    font-style: italic; 
+    border-bottom: solid 1px #CCC; 
+    padding: 0 0 1.5em 0; 
+    margin-bottom: 1.5em; 
+}
+
+.toc { 
+    border: 1px solid #CCC; 
+    border-width: 1px 0; 
+    clear: both; 
+    margin-top: 1.5em; 
+    padding: 1.5em; 
+}
+
+.thumb { 
+    border: 1px solid #CCC; 
+    background: #f9f9f9; 
+    padding: 0.5em; }
+
+.thumb.tleft { 
+    float: left; 
+    margin: 0 1em 1em 0;
+}
+
+.thumb.tright { 
+    float: right; 
+    margin: 0 0 1em 1em; 
+}
+
+.thumb.tleft + .thumb.tleft { 
+    clear: left; 
+}
+
+.thumb.tright + .thumb.tright { 
+    clear: right; 
+}
+
+.gallerybox   {
+    display:inline-block;
+    margin: 0 1em 1em 0;
+}
+.gallerybox > div > .thumb > div {
+   text-align:center;
+}
+
+li.gallerybox {
+    vertical-align: top;
+}
+.thumb.tleft + h2, .thumb.tright + h2 {
+    clear:both;
+}
+div.reflist.columns.references-column-width {
+    -moz-column-width: auto !important;
+    -webkit-column-width: auto !important;
+    column-width: auto !important;
+}

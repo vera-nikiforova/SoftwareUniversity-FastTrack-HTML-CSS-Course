@@ -1,0 +1,64 @@
+#siteSub { padding: 0 0 2em 0; }
+
+.thumb { display: block; border: 1px solid #CCC; }
+.thumb .thumbcaption { font-size: 90%; line-height: 1.4; color: #666; background: #F8F8F8; padding: 0.5em; margin-top: 0.5em; border: 1px solid #DDD; }
+.thumb img { display: block; }
+.thumb .thumbinner { padding: 0.4em; }
+.thumb.tleft { float: left; margin: 0 1em 1em 0; position: relative; top: 0.5em; }
+.thumb.tright { float: right; margin: 0 0 1em 1em; }
+
+.toc { border: 1px solid #CCC; background-color: #F8F8F8; }
+.toc #toctitle { padding: 1em 1em 0 1em; }
+.toc h2 { font-size: 1.5em; margin-bottom: 0.5em; }
+.toc ul li { list-style: none outside; }
+
+.columns + h2 { margin-top: 2em; }
+.visualClear,
+.catlinks,
+.printfooter,
+.navbox,
+.cite-accessibility-label,
+.noprint,
+table.metadata,
+.mw-editsection,
+.toctoggle { display: none; }
+
+:target { color: #369; padding-top: 1em; }
+
+/* TODO: Fix hatnotes */
+.reference { display: none; }
+
+/* TODO: Fix hatnotes */
+.hatnote { display: none; }
+
+/* TODO: Fix magnify icon */
+.magnify { display: none; }
+
+
+.colorSchemeCreamBlue :target { color: #FFF; border-width: 1px; border-style: solid; padding: 0.2em; margin-left: -0.3em; }
+
+.colorSchemeCreamBlue .thumb { border-color: #99d8ea; }
+.colorSchemeCreamBlue .thumb .thumbcaption { color: #EEE; background: #4090a7; border-color: #99d8ea; }
+.colorSchemeCreamBlue :target,
+.colorSchemeCreamBlue .toc { background-color: #4090a7; border-color: #99d8ea; }
+
+@media only screen
+and (max-width : 760px) {
+
+    body { font-size: 12px; }
+
+    .thumb.tleft,
+    .thumb.tright { float: none; display: inline-block; margin: 0 auto 1em auto; }
+    .thumb.tleft + p,
+    .thumb.tright + p { clear: both; }
+
+}
+
+@media only screen
+and (min-width : 1200px) {
+
+    body { font-size: 16px; margin: 0; padding: 4em 6em; }
+
+    .toc { width: 15em; position: fixed; top: 2em; right: 2em; }
+
+}

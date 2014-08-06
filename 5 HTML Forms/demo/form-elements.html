@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Forms</title>
+	</head>
+	<body>
+		
+		<form action="#" method="post">
+
+			<p>
+				<label for="textfield">Textfield</label>
+				<input type="text" name="textfield" id="textfield" required="required">
+			</p>
+
+			<p>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required="required">
+			</p>
+
+			<p>
+				<label for="passwordfield">Passwordfield</label>
+				<input type="password" name="passwordfield" id="passwordfield" required="required">
+			</p>
+
+			<p>
+				<label for="textareafield">Textareafield</label>
+				<textarea name="textareafield" id="textareafield"></textarea>
+			</p>
+
+			<p>
+				<label for="selectfield">Selectfield</label>
+				<select name="selectfield" id="selectfield">
+					<option value="0">Please select Gender</option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+					<option value="3">Its complicated!!!</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="multipleselectfield">MultipleSelectfield</label>
+				<select multiple="multiple" name="multipleselectfield" id="multipleselectfield">
+					<option value="0">Please select Gender</option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+					<option value="3">Its complicated!!!</option>
+				</select>
+			</p>
+		
+			<p>
+				<label>Cities lived in?!</label>
+				<input type="checkbox" name="checkbox_group_1" id="checkbox_group_1">
+				<label for="checkbox_group_1">Sofia</label>
+				<input type="checkbox" name="checkbox_group_2" id="checkbox_group_2">
+				<label for="checkbox_group_2">London</label>
+				<input type="checkbox" name="checkbox_group_3" id="checkbox_group_3">
+				<label for="checkbox_group_3">Moscow</label>
+				<input type="checkbox" name="checkbox_group_4" id="checkbox_group_4">
+				<label for="checkbox_group_4">New York</label>
+			</p>
+
+			<p>
+				<label>Where would you like to live?!</label>
+				<input type="radio" name="radio_group" id="radio_group_1" value="1" />
+				<label for="radio_group_1">Sofia</label>
+				<input type="radio" name="radio_group" id="radio_group_2" value="2" />
+				<label for="radio_group_2">London</label>
+				<input type="radio" name="radio_group" id="radio_group_3" value="3" />
+				<label for="radio_group_3">Moscow</label>
+				<input type="radio" name="radio_group" id="radio_group_4" value="4" />
+				<label for="radio_group_4">New York</label>
+			</p>
+
+			<p>
+				<label for="color">Color</label>
+				<input type="color" name="color" id="color">
+			</p>
+			
+			<input type="submit">
+			<input type="reset">
+			<button>My Button</button>
+			
+		</form>
+
+	</body>
+</html>

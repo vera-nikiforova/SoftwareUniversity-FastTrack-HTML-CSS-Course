@@ -1,0 +1,32 @@
+﻿body {
+    background-color:lightgrey;
+    color: #000;
+    font-family: Georgia, 
+    Sans-serif;font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#fff;
+}
+nav ul li {
+	list-style-type:none;
+	display: inline-block;
+	padding: 5px 10px;
+}
+nav ul li:hover a{
+	text-decoration:underline;
+	color: #fff;
+
+}
+nav ul li a  {
+    color:#000;
+}
+ul li {
+    list-style-type:square;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+ol li {
+    color: yellow;
+}

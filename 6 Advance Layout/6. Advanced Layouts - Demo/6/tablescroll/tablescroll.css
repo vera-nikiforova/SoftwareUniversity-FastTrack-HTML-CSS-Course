@@ -1,0 +1,27 @@
+* { padding: 0; margin: 0; }
+
+body, html { height: 100%; overflow: hidden; }
+
+table { }
+
+.pageHolder { 
+	width: 50%; height: 90%; overflow: hidden;
+	position: relative; top: 5%; margin: 0 auto; 
+	border: 1px solid #CCC; 
+}
+
+.page { 
+	height: 100%;
+	overflow: hidden; 
+	overflow-y: auto; 
+	position: relative;
+	z-index: 10;
+	background: #fff;
+}
+
+.page table { border: none; }
+.page table thead { position: sticky; }
+
+.buttons { width: 100%; position: absolute; bottom: 0; left: 0; z-index: 20; padding: 1em; border-top: solid 1px #CCC; background: #fff; }
+.button { display: inline-block; padding: 0.5em 1em; background: orange; color: #FFF; border-radius: 10px; }
+

@@ -1,0 +1,11 @@
+.gallery {  }
+.gallery ul { padding: 0; margin: 0; }
+.gallery ul li { display: block; list-style: none outside; }
+
+.gallery ul { overflow: hidden; }
+.gallery ul li { float: left; margin: 0 5px 5px 0; }
+.gallery ul li a { display: block; padding: 0; margin:5px; z-index:2; }
+.gallery ul li:hover { background:rgba(0, 174, 236, 0.25); }
+.gallery ul li a img { display: block; width: 100px; height: 100px; }
+
+/*.gallery ul li a:hover img { width: 120px; height: 120px; }*/

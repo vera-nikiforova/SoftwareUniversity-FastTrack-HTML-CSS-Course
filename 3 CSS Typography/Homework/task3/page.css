@@ -1,0 +1,26 @@
+
+.wrapper {
+	margin: 0 auto;
+    width: 40em;
+	padding: 1em;
+	background: #eee;
+}
+
+ul > li { list-style: disc; }
+ul > li > ul > li { list-style: square; }
+ul > li > ul > li > ul > li { list-style: circle; }
+
+ol > li { list-style: decimal; }
+ol > li > ol > li { list-style: lower-latin; }
+ol > li > ol > li > ol > li { list-style: lower-roman; }
+
+ol {
+    background:white;
+}
+    ol ol {
+        background:#fafaac;
+    }
+ul {
+    background:#fbd185;
+    font-style:italic;
+}

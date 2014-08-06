@@ -1,0 +1,40 @@
+body {
+}
+
+body, html { 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.page { 
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	top: 15%; left: 15%;
+	border: solid 1px #e1b7f3;
+	border-radius: 10px;
+	overflow: hidden;
+	overflow-y: auto;
+	box-shadow: 0 0 10px #c98fe1;
+}
+
+.page p { color: #666; }
+.page p:hover { color: #000; }
+
+.page:hover {
+	box-shadow: 0 0 10px #7d22a3;
+}
+
+header, .main, footer {
+	margin: 1em 3em; padding: 0.5em 0;
+}
+
+header { 
+    border-bottom: solid 1px #e1b7f3; 
+    box-shadow: 0 5px 5px -4px #c98fe1;
+    text-align: center; 
+}
+footer { 
+    border-top: solid 1px #CCC; 
+    box-shadow: 0 -5px 5px -4px #c98fe1;
+}

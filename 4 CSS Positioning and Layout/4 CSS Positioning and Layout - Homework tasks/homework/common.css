@@ -1,0 +1,62 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background: #33BEF0;
+}
+
+header, .main, footer {
+	background: #fff;
+    border-radius: 10px;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+header {
+	padding: 20px; margin-bottom: 20px;
+}
+
+header:after { 
+    display: block; 
+    content: ''; 
+    height: 0; 
+    clear: both; 
+}
+
+h1 { 
+    float: left; 
+}
+nav { 
+    float:right; 
+}
+
+footer {
+	padding: 20px; margin-top: 20px; padding-bottom:0; text-align:center;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.inner {
+	padding: 20px;
+}
+
+.content .inner {
+	padding-right: 0;
+}
+
+.content, aside {
+	float: left;
+}
+
+.content {
+	width: 70%;
+}
+
+aside {
+	width: 30%;
+}

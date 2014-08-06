@@ -1,0 +1,29 @@
+.noprint,
+.navbox,
+#mw-navigation,
+#footer,
+.suggestions,
+#catlinks,
+.toctoggle,
+.metadata,
+.hatnote,
+#jump-to-nav { display: none; }
+
+.infobox { float: right; margin: 0 0 1em 1em; }
+
+
+#firstHeading { }
+#siteSub { font-style: italic; border-bottom: solid 1px #CCC; padding: 0 0 1.5em 0; margin-bottom: 1.5em; }
+
+.toc { border: 1px solid #CCC; border-width: 1px 0; clear: both; margin-top: 1.5em; padding: 1.5em; }
+
+.thumb { border: 1px solid #CCC; background: #FFF; padding: 0.5em; }
+.thumb.tleft { float: left; margin: 0 1em 1em 0;}
+.thumb.tright { float: right; margin: 0 0 1em 1em; }
+
+.thumb.tleft + .thumb.tleft { clear: left; }
+.thumb.tright + .thumb.tright { clear: right; }
+
+/*.thumb.tleft + p,*/
+/*.thumb.tright + p { clear: both; }*/
+

@@ -1,0 +1,45 @@
+
+form { border: 1px solid #CCC; padding: 2em; }
+
+form .input input,
+form .input textarea,
+form .input select,
+form .input label { display: block; }
+
+form .input label { font-weight: bold; }
+
+form .input input,
+form .input textarea { border: 1px solid #CCC; width: 100%; border-radius: 4px; padding: 0.2em 0.5em; }
+form .input input:focus,
+form .input textarea:focus { border-color: orange; }
+form .input input:focus + .error,
+form .input textarea:focus + .error { display: none; }
+
+
+
+form .input.radio label[for],
+form .input.checkbox label[for] { display: inline; padding-right: 2em; padding-left: 0.2em; font-weight: normal; }
+
+form .input.radio input,
+form .input.checkbox input { display: inline; width: auto; }
+
+form .input .helper { display: block; color: #999; font-style: italic; }
+form .input .helper.error { color: #900; font-style: normal; }
+
+form .input.required label:after { display: inline; content: '*'; color: #900; padding-left: 0.5em; }
+
+form .button { display: block; border: none; padding: 0.5em 1em; background: orange; color: #FFF; cursor: pointer; border-radius: 1em; margin-bottom: 1em; }
+form .button:hover { background: darkorange; }
+
+form .buttons { overflow: hidden; }
+form .buttons .button { float: left; margin-right: 1em; margin-bottom: 0; }
+
+form.compact .input { overflow: hidden; font-size: 0.9em; padding-bottom: 0.8em; }
+form.compact .input label { padding-top: 0.4em; }
+form.compact .input > label:first-of-type { float: left; width: 30%; text-align: right; margin-right: 1%; }
+form.compact .input > label:first-of-type + input[type=text],
+form.compact .input > label:first-of-type + input[type=email],
+form.compact .input > label:first-of-type + input[type=password],
+form.compact .input > label:first-of-type + textarea { float: left; width: 65%; }
+form.compact .input .helper,
+form.compact .buttons { clear: both; padding-left: 31%; }

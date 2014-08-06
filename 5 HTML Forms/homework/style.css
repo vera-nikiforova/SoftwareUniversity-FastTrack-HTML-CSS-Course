@@ -1,0 +1,110 @@
+﻿body {
+
+}
+#wrapper {
+    width:600px;
+    margin:0 auto;
+}
+form {
+    border: 1px solid #CCC;
+    padding:2em;
+}
+
+fieldset {
+    border: 1px solid #CCC;
+    padding:1em;
+}
+legend {
+    font-weight:bold;
+    font-size:1.5em;
+    color:#808080;
+}
+.input label {
+    font-weight:bold;
+}
+
+.input label,
+.input input,
+.input textarea,
+.input select {
+    display:block;
+}
+
+.input.radio label,
+.input.radio input,
+.input.checkbox label,
+.input.checkbox input{
+    display:inline;
+    width:auto;
+    padding-left:1.3em;
+    font-weight:normal;
+}
+
+.input input,.input textarea {
+    border: 1px solid #CCC;
+    width:100%;
+}
+.Submitbutton,.Resetbutton {
+    display:block;
+    border:none;
+    padding:0.5em 1em;
+    border-radius:0.5em;
+    color:white;
+}
+
+.input .helper {
+    display:block;
+    color:#999;
+    font-style:italic;
+}
+.input .error {
+    color:#900;
+    font-style:normal;
+}
+
+.input.required label:after { 
+    display: inline; 
+    content: '*'; 
+    color: #900; 
+    padding-left: 0.5em; 
+}
+.Submitbutton {
+    background-color:forestgreen;
+}
+.Submitbutton:hover {
+    background-color:darkgreen;
+}
+.Resetbutton {
+    background-color:crimson;
+}
+.Resetbutton:hover {
+    background-color:darkred;
+}
+.butonsgroup {
+    overflow:hidden;
+    margin-top:1em;
+}
+    .butonsgroup .Submitbutton, .butonsgroup .Resetbutton {
+        float:left;
+        margin-right:1em;
+    }
+
+.compact .input {
+    overflow:hidden;
+}
+
+.compact .input > label {
+    float:left;
+    width:30%;
+    text-align:right;
+}
+    .compact .input > label + input[type=text],
+    .compact .input > label + input[type=textarea],
+    .compact .input > label + input[type=email] {
+        width:65%;
+        float:left;
+    }
+
+    .compact .input .helper {
+        clear:both;
+    }

@@ -1,0 +1,81 @@
+﻿/*fist blockquote*/
+#first {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+#first:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+#first cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+#first cite:before {
+    content: "\2014 \2009";
+}
+
+
+/*second blockquote*/
+#second {
+  background: #faeca3;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+#second:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#second p {
+  display: inline;
+}
+#second cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+/*second blockquote*/
+#third {
+    font-family: 'Droid Serif', serif;
+    font-size:16px;
+    font-style:italic;
+    width:450px;
+    background-color:#fbf6f0;
+    border-left:3px dashed #d5bc8c;
+    border-right:3px dashed #d5bc8c;
+    text-align:center;
+} 
+#third cite {
+    color: #a1a1a1;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+ 
+#third cite:before {
+    content: "\2014 \2009";
+}

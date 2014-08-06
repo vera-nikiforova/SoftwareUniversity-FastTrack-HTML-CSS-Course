@@ -1,0 +1,14 @@
+body {
+	max-width: 50em;
+	min-width: 30em;
+	padding: 4em 6em;
+	margin: 0 auto;
+}
+
+body.colorSchemeSimpleWhite { background: #FFF; color: #333; }
+body.colorSchemeSimpleWhite a { color: #369; }
+body.colorSchemeSimpleWhite a:hover { text-decoration: underline; }
+
+body.colorSchemeCreamBlue { background: #49a0b9; color: #FFF; font-size: 16px; }
+body.colorSchemeCreamBlue a { color: #fedc00; }
+body.colorSchemeCreamBlue a:hover { border-bottom: 1px solid #fedc00;  }

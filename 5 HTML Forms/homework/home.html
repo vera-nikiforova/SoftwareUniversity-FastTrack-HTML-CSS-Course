@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contact Information</title>
+    <meta charset="utf-8" />
+    <link href="typography.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="wrapper">
+        <form method="post" class="compact">
+            <h1>Profile</h1>
+            <fieldset class="input required">
+                <legend>Login information</legend>
+                <label for="Username">Username</label>
+                <input type="text" id="Username" required/>
+                <span class="error">This is a required field</span>
+                <span class="helper">Pick something short and meaningful</span>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" required/>
+                <span class="helper">Example:user@domain.com</span>
+            </fieldset>
+            <fieldset class="input">
+                <legend>Additional information</legend>
+                <label for="First Name">First Name</label>
+                <input type="text" id="First Name" />
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="Last Name" />
+                <label for="Website">Website</label>
+                <input type="text" id="Website" />
+                <label for="Biography">Biography</label>
+                <textarea id="Biography"></textarea>
+            </fieldset>
+            <fieldset class="input">
+                <legend>Social networks</legend>
+                <label for="Twitter">Twitter</label>
+                <input type="text" id="Twitter" />
+                <label for="Facebook">Facebook</label>
+                <input type="text" id="Facebook" />
+                <label for="Github">Github</label>
+                <input type="text" id="Github" />
+                <label for="Last.fm">Last.fm</label>
+                <input type="text" id="Last.fm" />
+            </fieldset>
+            <fieldset class="input checkbox">
+                <legend>List of interests</legend>
+                <label for="Cooking">Cooking</label>
+                <input type="checkbox" id="Cooking" value="Cooking" />
+                <label for="Sport">Sport</label>
+                <input type="checkbox" id="Sport" value="Sport" />
+                <label for="Music">Music</label>
+                <input type="checkbox" id="Music" value="Music" />
+                <label for="Books">Books</label>
+                <input type="checkbox" id="Books" value="Books" />
+                <label for="Films">Films</label>
+                <input type="checkbox" id="Films" value="Films" />
+            </fieldset>
+            <fieldset class="input radio">
+                <legend>Select a Gender</legend>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="Gender" value="Male" />
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="Gender" value="Female" />
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" name="Gender" value="Other" />
+            </fieldset>
+            <fieldset class="input">
+                <legend>Select a Country</legend>
+                <select>
+                    <option value="1">Bulgaria</option>
+                    <option value="2">USA</option>
+                    <option value="3">UK</option>
+                    <option value="4">Germany</option>
+                    <option value="5">France</option>
+                    <option value="6">Poland</option>
+                    <option value="7">Russia</option>
+                    <option value="8">Greece</option>
+                </select>
+            </fieldset>
+            <fieldset class="input">
+                <legend>Select a City</legend>
+                <select>
+                    <option value="1">Sofia</option>
+                    <option value="2">Plovdiv</option>
+                    <option value="3">Varna</option>
+                    <option value="4">Burgas</option>
+                </select>
+            </fieldset>
+            <fieldset class="input checkbox">
+                <legend>Musical tastes</legend>
+                <label for="Trance">Trance</label>
+                <input type="checkbox" id="Trance" value="Trance" />
+                <label for="House">House</label>
+                <input type="checkbox" id="House" value="House" />
+                <label for="Hip-Hop">Hip-Hop</label>
+                <input type="checkbox" id="Hip-Hop" value="Hip-Hop" />
+                <label for="Rock">Rock</label>
+                <input type="checkbox" id="Rock" value="Rock" />
+                <label for="Progressive">Progressive</label>
+                <input type="checkbox" id="Progressive" value="Progressive" />
+                <label for="Metal">Metal</label>
+                <input type="checkbox" id="Metal" value="Metal" />
+                <label for="BG music">BG music</label>
+                <input type="checkbox" id="BG music" value="BG music" />
+                <label for="Classic">Classic</label>
+                <input type="checkbox" id="Classic" value="Classic" />
+            </fieldset>
+            <div class="butonsgroup">
+                <input type="submit" value="Submit" class="Submitbutton" />
+                <input type="reset" value="Reset" class="Resetbutton" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
